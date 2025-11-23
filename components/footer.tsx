@@ -8,10 +8,13 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
                 <span className="text-white text-lg font-bold">🐢</span>
               </div>
-              <span className="font-bold text-foreground">TurtleWorld</span>
+              <span className="font-bold text-foreground">
+                AnitaTurtleWorld
+              </span>
             </div>
             <p className="text-foreground/70 text-sm leading-relaxed">
-              Dedicado a la educación, conservación y protección de las tortugas en todo el mundo.
+              Dedicado a la educación, conservación y protección de las tortugas
+              en todo el mundo.
             </p>
           </div>
 
@@ -19,22 +22,34 @@ export default function Footer() {
             <h4 className="font-bold text-foreground mb-4">Información</h4>
             <ul className="space-y-2 text-sm text-foreground/70">
               <li>
-                <a href="#introduccion" className="hover:text-primary transition-colors">
+                <a
+                  href="#introduccion"
+                  className="hover:text-primary transition-colors"
+                >
                   Sobre Tortugas
                 </a>
               </li>
               <li>
-                <a href="#tipos" className="hover:text-primary transition-colors">
+                <a
+                  href="#tipos"
+                  className="hover:text-primary transition-colors"
+                >
                   Tipos
                 </a>
               </li>
               <li>
-                <a href="#geografia" className="hover:text-primary transition-colors">
+                <a
+                  href="#geografia"
+                  className="hover:text-primary transition-colors"
+                >
                   Geografía
                 </a>
               </li>
               <li>
-                <a href="#conservacion" className="hover:text-primary transition-colors">
+                <a
+                  href="#conservacion"
+                  className="hover:text-primary transition-colors"
+                >
                   Conservación
                 </a>
               </li>
@@ -94,7 +109,10 @@ export default function Footer() {
 
         <div className="border-t border-accent/10 pt-8">
           <div className="text-center text-sm text-foreground/60">
-            <p>&copy; 2025 TurtleWorld. Dedicado a la protección de las tortugas. Todos los derechos reservados.</p>
+            <p>
+              &copy; 2025 AnitaTurtleWorld. Dedicado a la protección de las
+              tortugas. Todos los derechos reservados.
+            </p>
             <div className="flex justify-center gap-4 mt-4 text-xs">
               <a href="#" className="hover:text-primary transition-colors">
                 Privacidad
@@ -110,5 +128,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

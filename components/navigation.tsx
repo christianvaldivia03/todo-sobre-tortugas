@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Menu, X } from "lucide-react"
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id)
-    element?.scrollIntoView({ behavior: "smooth" })
-    setIsOpen(false)
-  }
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
+  };
 
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-accent/10">
@@ -22,7 +22,9 @@ export default function Navigation() {
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <span className="text-white text-lg font-bold">🐢</span>
               </div>
-              <span className="font-bold text-foreground text-lg hidden sm:inline">TurtleWorld</span>
+              <span className="font-bold text-foreground text-lg hidden sm:inline">
+                AnitaTurtleWorld
+              </span>
             </div>
           </div>
 
@@ -106,5 +108,5 @@ export default function Navigation() {
         )}
       </div>
     </nav>
-  )
+  );
 }
